@@ -15,7 +15,7 @@ SIZE = 32
 num_classes = 7
 
 # Eğitimli modeli yükle
-model = load_model(r"/Users/ibrahim/Desktop/workspace/FastAPI Practice/skin_lesion_model.h5")
+model = load_model(r"/Users/ibrahim/Desktop/workspace/FastAPI Practice/FastAPI-Skin-Lesion-Model/skin_lesion_model.h5")
 
 # Label Encoder'ı yükle
 le = LabelEncoder()
